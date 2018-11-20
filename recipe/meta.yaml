@@ -15,17 +15,14 @@ source:
   sha256: 6cf29680c38a131fc217d716071667be2b63ca5cb8ea70188461939a643d8126
 
 build:
-  merge_build_host: True  # [win]
-  number: 0
+  noarch: generic
+  number: 1000
   rpaths:
     - lib/R/lib/
     - lib/
 
 # Suggests: knitr, testthat
 requirements:
-  build:
-    - {{posix}}zip               # [win]
-
   host:
     - r-base
     - r-bibtex >=0.4.1
