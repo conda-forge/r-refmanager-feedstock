@@ -3,7 +3,7 @@ About r-refmanager
 
 Home: https://github.com/ropensci/RefManageR/
 
-Package license: GPL-2 | GPL-3 | BSD_3_clause
+Package license: GPL-2.0-or-later OR BSD-3-Clause
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-refmanager-feedstock/blob/master/LICENSE.txt)
 
