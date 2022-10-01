@@ -1,4 +1,4 @@
-{% set version = "1.3.0" %}
+{% set version = "1.4.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/RefManageR_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/RefManageR/RefManageR_{{ version }}.tar.gz
-  sha256: fa3aec38cee95d7a75d79078a7b397fc08086fe3d0e2aed8f24d9468cb6dffea
+  sha256: e8300f65ab38425356fa0705356c5c00a37253737885ec6dfe2e7d719f314dce
 
 build:
   noarch: generic
